@@ -4,7 +4,7 @@ import HomeComponent from './components/HomeComponent.vue';
 import DetallesHospitales from './components/DetallesHospitales.vue';
 import InsertarHospital from './components/InsertarHospital.vue';
 import UpdateHospitales from './components/UpdateHospitales.vue';
-import EliminarHospital from './components/EliminarHospital.vue';
+import SweetAlert from './components/SweetAlert.vue';
 
 
 const routes = [
@@ -24,7 +24,7 @@ const routes = [
         path: "/modificar/:id", component:UpdateHospitales
     },
     {
-        path: "/eliminar/:id", component:EliminarHospital
+        path: "/eliminar/:id", component:SweetAlert
     }
     
     
