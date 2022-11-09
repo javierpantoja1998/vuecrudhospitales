@@ -1,7 +1,7 @@
 <template>
     <div>
       <h1>¿ESTÁ SEGURO DE QUE DESEA BORRAR EL HOSPITAL?</h1>
-      <img src="./../assets/images/rk.gif"/>
+      <img src="./../assets/images/joker.gif"/>
     </div>
     <button @click="probarAlert()">ELIMINAR</button>
   </template>
